@@ -10,16 +10,20 @@
         margin: 0;
       }
 
-      #canvas {
+      canvas {
         position: fixed;
         left: calc(50% - 320px);
         top: calc(50% - 320px);
+      }
+
+      #canvas {
         background-color: #CCC;
       }
     </style>
   </head>
   <body>
     <canvas id="canvas" width="640" height="640"></canvas>
+    <canvas id="result-canvas" width="640" height="640"></canvas>
   </body>
   <script src="index.js"></script>
 </html>
